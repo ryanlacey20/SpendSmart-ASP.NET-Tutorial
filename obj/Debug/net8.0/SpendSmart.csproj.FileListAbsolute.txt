@@ -33,3 +33,4 @@
 /Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
 /Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Debug/net8.0/SpendSmart.csproj.AssemblyReference.cache
 /Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Debug/net8.0/SpendSmart.csproj.Up2Date
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Debug/net8.0/SpendSmart.sourcelink.json
