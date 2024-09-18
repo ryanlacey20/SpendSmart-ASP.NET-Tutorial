@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/Views/Home/CreateEditExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DcmVhdGVFZGl0RXhwZW5zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/Views/Home/Expenses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FeHBlbnNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
