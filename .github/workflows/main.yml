@@ -1,0 +1,27 @@
+name: Update Parent Repository
+
+on:
+  push:
+    branches:
+      - main  
+
+jobs:
+  update-parent-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the submodule
+        uses: actions/checkout@v2
+
+      - name: Checkout the parent repository
+        run: |
+          git clone --recurse-submodules https://github.com/ryanlacey20/portfolio.git
+          cd parent-repo
+          git checkout main 
+
+      - name: Update submodule reference in parent repo
+        run: |
+          cd parent-repo
+          git add SpendSmart-ASP.NET-Tutorial
+          git commit -m "Update submodule to latest version" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
