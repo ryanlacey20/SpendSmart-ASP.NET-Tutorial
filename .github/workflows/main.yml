@@ -15,7 +15,7 @@ jobs:
 
       - name: Checkout the parent repository
         run: |
-          git clone --recurse-submodules https://github.com/ryanlacey20/portfolio.git
+          git clone --recurse-submodules ryanlacey20/portfolio.git
           cd parent-repo
           git checkout main 
 
