@@ -21,6 +21,7 @@ jobs:
 
       - name: Update submodule reference in parent repo
         run: |
+          echo ls
           cd portfolio
           git add SpendSmart-ASP.NET-Tutorial
           git commit -m "Update submodule to latest version" || echo "No changes to commit"
