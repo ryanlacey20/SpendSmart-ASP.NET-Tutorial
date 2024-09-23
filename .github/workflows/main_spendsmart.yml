@@ -26,7 +26,7 @@ jobs:
         run: nuget restore
 
       - name: Publish to folder
-        run: dotnet publish SpendSmart.csproj -c Release -o ./publish
+        run: dotnet publish SpendSmart.csproj -c Release -o "/publish/"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
