@@ -24,7 +24,14 @@ jobs:
 
       - name: Restore NuGet packages
         run: nuget restore
-
+      
+      - name: Show current directory and files before publishing
+        run: |
+          echo "Current directory is:"
+          echo %cd%
+          echo "Listing all files in the current directory:"
+          dir
+      
       - name: Publish to folder
         run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
 
