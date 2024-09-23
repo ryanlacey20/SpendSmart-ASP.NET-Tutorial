@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SpendSmart</id>
+    <version>1.0.0</version>
+    <authors>SpendSmart</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="16b963324659e06e419c80c64b70ad2bb538d471" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.8" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.InMemory" version="8.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net8.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/bin/Release/net8.0/SpendSmart.runtimeconfig.json" target="lib/net8.0/SpendSmart.runtimeconfig.json" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/bin/Release/net8.0/SpendSmart.dll" target="lib/net8.0/SpendSmart.dll" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/appsettings.Development.json" target="content/appsettings.Development.json" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/appsettings.Development.json" target="contentFiles/any/net8.0/appsettings.Development.json" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/appsettings.json" target="content/appsettings.json" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/appsettings.json" target="contentFiles/any/net8.0/appsettings.json" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Release/net8.0/scopedcss/projectbundle/SpendSmart.bundle.scp.css" target="staticwebassets/SpendSmart.bundle.scp.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/css/site.css" target="staticwebassets/css/site.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/favicon.ico" target="staticwebassets/favicon.ico" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/js/site.js" target="staticwebassets/js/site.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/LICENSE" target="staticwebassets/lib/bootstrap/LICENSE" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" target="staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.js" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" target="staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" target="staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" target="staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" target="staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation/LICENSE.md" target="staticwebassets/lib/jquery-validation/LICENSE.md" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation/dist/additional-methods.js" target="staticwebassets/lib/jquery-validation/dist/additional-methods.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" target="staticwebassets/lib/jquery-validation/dist/additional-methods.min.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation/dist/jquery.validate.js" target="staticwebassets/lib/jquery-validation/dist/jquery.validate.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" target="staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery/LICENSE.txt" target="staticwebassets/lib/jquery/LICENSE.txt" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery/dist/jquery.js" target="staticwebassets/lib/jquery/dist/jquery.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery/dist/jquery.min.js" target="staticwebassets/lib/jquery/dist/jquery.min.js" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/wwwroot/lib/jquery/dist/jquery.min.map" target="staticwebassets/lib/jquery/dist/jquery.min.map" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Release/net8.0/staticwebassets/msbuild.SpendSmart.Microsoft.AspNetCore.StaticWebAssets.props" target="build/Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Release/net8.0/staticwebassets/msbuild.build.SpendSmart.props" target="build/SpendSmart.props" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.SpendSmart.props" target="buildMultiTargeting/SpendSmart.props" />
+    <file src="/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.SpendSmart.props" target="buildTransitive/SpendSmart.props" />
+  </files>
+</package>
