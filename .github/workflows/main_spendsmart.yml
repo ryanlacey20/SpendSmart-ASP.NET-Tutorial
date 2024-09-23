@@ -24,16 +24,9 @@ jobs:
 
       - name: Restore NuGet packages
         run: nuget restore
-      
-      - name: Show current directory and files before publishing
-        run: |
-          echo "Current directory is:"
-          echo %cd%
-          echo "Listing all files in the current directory:"
-          dir
-      
+
       - name: Publish to folder
-        run: msbuild SpendSmart.csproj /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
+        run: msbuild /nologo /verbosity:m /t:Build /t:pipelinePreDeployCopyAllFilesToOneFolder /p:_PackageTempDir="\published\"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
@@ -59,9 +52,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_9DD881B8C33F41F387B80BE0A78ADDB8 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_7499150206184B939BFEDCADE2F326A4 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_CFBDE798EAC44CAF83AA660E2DF72333 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_64418A24E1A04E53B82F99E1F78D1B31 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_BCAF29FD5CDA4F0F9021DEDB73CF2F7E }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_71331F14802740FC874F51EA64F3DA61 }}
 
       - name: Deploy to Azure Web App
         id: deploy-to-webapp
