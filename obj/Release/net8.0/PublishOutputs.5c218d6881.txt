@@ -1,0 +1,10 @@
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/SpendSmart
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/appsettings.Development.json
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/appsettings.json
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/SpendSmart.dll
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/SpendSmart.deps.json
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/SpendSmart.runtimeconfig.json
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/SpendSmart.pdb
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/Microsoft.EntityFrameworkCore.dll
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/ryanlacey/Documents/GitHub/SpendSmart-ASP.NET-Tutorial/publish/Microsoft.EntityFrameworkCore.InMemory.dll
